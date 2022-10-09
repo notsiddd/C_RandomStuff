@@ -42,6 +42,7 @@ void lister(int num){
         printf("%d->",printer->val);
         printer = printer->next;
     }
+    printf("NULL\n");
 
 }
 
