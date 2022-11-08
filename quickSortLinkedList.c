@@ -15,7 +15,7 @@ blah* lister(int num){
     int i, value1;
 
     head = malloc(sizeof(blah));
-    printf("Enter data of head.");
+    printf("Enter data of head.\n");
     scanf("%d",&value1);
     head->val = value1;
     head->next = NULL;
@@ -25,7 +25,7 @@ blah* lister(int num){
 
     for(i=2;i<=num;i++){
         nextNode = malloc(sizeof(blah));
-        printf("Enter value of node %d.",i);
+        printf("Enter value of node %d.\n",i);
         scanf("%d",&value1);
         nextNode->val = value1;
         nextNode->next = NULL;
