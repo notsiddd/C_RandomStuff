@@ -46,7 +46,6 @@ blah* leftRotation(blah* x)
     return y;
 }
 
-
 blah* rightRotation(blah* y)
 {
     blah* x = y->left;
@@ -126,8 +125,7 @@ blah* deleteNode(blah* root, int val)
     {
         if( (root->left == NULL) || (root->right == NULL) )
         {
-            blah* temp = root->left ? root->left : root->right;
-
+            blah* temp = (root->left ? root->left : root->right);
             if (temp == NULL)
             {
                 temp = root;
@@ -192,6 +190,8 @@ int main()
     root = insert(root, 31);
     root = insert(root, 39);
     root = insert(root, 47);
+    root = insert(root, 54);
+    root = insert(root, 61);
 
     printf("Preorder traversal : \n");
     preOrder(root);
