@@ -1,0 +1,22 @@
+//Adding Notes that I made in Class for this course!
+
+It is a type of linked list making getting to a node much quicker. (search and insertion basically)
+The express line is the top layer.
+Think of an elevator that has an express path as well to skip floors.
+
+
+Average Complexity - O(logn)
+
+//Below - Credit JavaPoint
+What is a skip list?
+A skip list is a probabilistic data structure. The skip list is used to store a sorted list of elements or data with a linked list. It allows the process of the elements or data to view efficiently. In one single step, it skips several elements of the entire list, which is why it is known as a skip list.
+
+The skip list is an extended version of the linked list. It allows the user to search, remove, and insert the element very quickly. It consists of a base list that includes a set of elements which maintains the link hierarchy of the subsequent elements.
+
+Skip list structure
+It is built in two layers: The lowest layer and Top layer.
+
+The lowest layer of the skip list is a common sorted linked list, and the top layers of the skip list are like an "express line" where the elements are skipped.
+
+
+https://www.youtube.com/watch?v=UGaOXaXAM5M&ab_channel=ShusenWang - Good explanation of the same.
